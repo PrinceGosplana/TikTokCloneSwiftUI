@@ -17,7 +17,7 @@ struct MainTabView: View {
 
     var body: some View {
         TabView {
-            Text("Feed")
+            FeedView()
                 .tabItem {
                     Image(systemName: selectedTab == .feed ? "house.fill" : "house")
                         .environment(\.symbolVariants, selectedTab == .feed ? .fill : .none)
