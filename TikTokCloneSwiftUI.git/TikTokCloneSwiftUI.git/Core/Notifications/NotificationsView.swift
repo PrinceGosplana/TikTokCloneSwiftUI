@@ -11,10 +11,9 @@ struct NotificationsView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                LazyVStack(spacing: 12) {
+                LazyVStack(spacing: 24) {
                     ForEach(1...10, id: \.self) { notification in
-                        Text("Placeholder \(notification)")
-                            .padding()
+                        NotificationCell()
                     }
                 }
             }

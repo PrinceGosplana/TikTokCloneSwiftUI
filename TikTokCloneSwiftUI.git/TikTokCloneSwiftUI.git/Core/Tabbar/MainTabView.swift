@@ -42,7 +42,7 @@ struct MainTabView: View {
                 .onAppear { selectedTab = .upload }
                 .tag(SelectedTab.upload)
 
-            Text("Notifications")
+            NotificationsView()
                 .tabItem {
                     Image(systemName: selectedTab == .notifications ? "heart.fill" : "heart")
                         .environment(\.symbolVariants, selectedTab == .notifications ? .fill : .none)
