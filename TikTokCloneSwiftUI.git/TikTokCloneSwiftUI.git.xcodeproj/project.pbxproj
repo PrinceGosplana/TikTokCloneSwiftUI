@@ -14,6 +14,7 @@
 		8AFC12632C02FBDF00F095F1 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC12622C02FBDF00F095F1 /* MainTabView.swift */; };
 		8AFC12652C03905A00F095F1 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC12642C03905A00F095F1 /* FeedView.swift */; };
 		8AFC12672C04588B00F095F1 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC12662C04588B00F095F1 /* FeedCell.swift */; };
+		8AFC126B2C045F9900F095F1 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC126A2C045F9900F095F1 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		8AFC12622C02FBDF00F095F1 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		8AFC12642C03905A00F095F1 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		8AFC12662C04588B00F095F1 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		8AFC126A2C045F9900F095F1 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		8AFC12592C02EE6200F095F1 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				8AFC126A2C045F9900F095F1 /* UserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				8A1B1C3E2C01DD9600F3D44B /* ContentView.swift in Sources */,
 				8A1B1C3C2C01DD9600F3D44B /* TikTokCloneSwiftUI_gitApp.swift in Sources */,
 				8AFC12632C02FBDF00F095F1 /* MainTabView.swift in Sources */,
+				8AFC126B2C045F9900F095F1 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
