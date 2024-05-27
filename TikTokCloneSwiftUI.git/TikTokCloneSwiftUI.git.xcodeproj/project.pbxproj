@@ -15,6 +15,7 @@
 		8AFC12652C03905A00F095F1 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC12642C03905A00F095F1 /* FeedView.swift */; };
 		8AFC12672C04588B00F095F1 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC12662C04588B00F095F1 /* FeedCell.swift */; };
 		8AFC126B2C045F9900F095F1 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC126A2C045F9900F095F1 /* UserCell.swift */; };
+		8AFC126D2C04609500F095F1 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC126C2C04609500F095F1 /* ExploreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8AFC12642C03905A00F095F1 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		8AFC12662C04588B00F095F1 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		8AFC126A2C045F9900F095F1 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		8AFC126C2C04609500F095F1 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				8AFC126A2C045F9900F095F1 /* UserCell.swift */,
+				8AFC126C2C04609500F095F1 /* ExploreView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AFC126D2C04609500F095F1 /* ExploreView.swift in Sources */,
 				8AFC12652C03905A00F095F1 /* FeedView.swift in Sources */,
 				8AFC12672C04588B00F095F1 /* FeedCell.swift in Sources */,
 				8A1B1C3E2C01DD9600F3D44B /* ContentView.swift in Sources */,

@@ -26,7 +26,7 @@ struct MainTabView: View {
                 .onAppear { selectedTab = .feed }
                 .tag(SelectedTab.feed)
 
-            Text("Friends")
+            ExploreView()
                 .tabItem {
                     Image(systemName: selectedTab == .friends ? "person.2.fill" : "person.2")
                         .environment(\.symbolVariants, selectedTab == .friends ? .fill : .none)
