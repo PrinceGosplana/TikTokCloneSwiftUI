@@ -51,7 +51,7 @@ struct MainTabView: View {
                 .onAppear { selectedTab = .notifications }
                 .tag(SelectedTab.notifications)
 
-            Text("Profile")
+            CurrentUserProfileView()
                 .tabItem {
                     Image(systemName: selectedTab == .profile ? "person.fill" : "person")
                         .environment(\.symbolVariants, selectedTab == .profile ? .fill : .none)
