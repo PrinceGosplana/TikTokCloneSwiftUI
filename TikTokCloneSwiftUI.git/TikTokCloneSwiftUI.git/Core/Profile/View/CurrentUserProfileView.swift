@@ -13,7 +13,7 @@ struct CurrentUserProfileView: View {
             ScrollView {
                 VStack(spacing: 2) {
                     // profile header
-
+                    ProfileHeader()
                     // post grid view
                 }
             }
