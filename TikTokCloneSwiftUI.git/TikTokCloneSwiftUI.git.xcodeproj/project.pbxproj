@@ -45,6 +45,7 @@
 		8A9AC5362C074F4F003C3511 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
 		8A9AC5382C075184003C3511 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		8A9AC53D2C0830D4003C3511 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		8A9AC53F2C08546F003C3511 /* TikTokCloneSwiftUI-git-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TikTokCloneSwiftUI-git-Info.plist"; sourceTree = SOURCE_ROOT; };
 		8AFC12622C02FBDF00F095F1 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		8AFC12642C03905A00F095F1 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		8AFC12662C04588B00F095F1 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 		8A1B1C3A2C01DD9600F3D44B /* TikTokCloneSwiftUI.git */ = {
 			isa = PBXGroup;
 			children = (
+				8A9AC53F2C08546F003C3511 /* TikTokCloneSwiftUI-git-Info.plist */,
 				8AFC12572C02EE1700F095F1 /* App */,
 				8A1B1C3F2C01DD9900F3D44B /* Assets.xcassets */,
 				8AFC12562C02EDEB00F095F1 /* Core */,
@@ -506,6 +508,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TikTokCloneSwiftUI.git/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TikTokCloneSwiftUI-git-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -534,6 +537,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TikTokCloneSwiftUI.git/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TikTokCloneSwiftUI-git-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
