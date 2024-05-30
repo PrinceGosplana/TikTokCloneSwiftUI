@@ -9,18 +9,13 @@ import SwiftUI
 
 struct FeedCell: View {
 
-    let post: Int
+    let post: Post
 
     var body: some View {
         ZStack {
             Rectangle()
                 .fill(.mint)
                 .containerRelativeFrame([.horizontal, .vertical])
-                .overlay {
-                    Text("Post \(post)")
-                        .foregroundStyle(.white)
-                }
-
             VStack {
                 Spacer()
 
@@ -101,5 +96,5 @@ struct FeedCell: View {
 }
 
 #Preview {
-    FeedCell(post: 0)
+    FeedCell(post: Post(id: UUID().uuidString, videoUrl: ""))
 }
