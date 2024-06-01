@@ -28,6 +28,8 @@
 		8AFC126B2C045F9900F095F1 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC126A2C045F9900F095F1 /* UserCell.swift */; };
 		8AFC126D2C04609500F095F1 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC126C2C04609500F095F1 /* ExploreView.swift */; };
 		8AFC12712C04655700F095F1 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC12702C04655700F095F1 /* NotificationsView.swift */; };
+		8AFF08242C0AF3920025F8D8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF08232C0AF3920025F8D8 /* LoginView.swift */; };
+		8AFF08262C0AF6110025F8D8 /* StandardTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF08252C0AF6110025F8D8 /* StandardTextFieldModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		8AFC126A2C045F9900F095F1 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		8AFC126C2C04609500F095F1 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		8AFC12702C04655700F095F1 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		8AFF08232C0AF3920025F8D8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8AFF08252C0AF6110025F8D8 /* StandardTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardTextFieldModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,7 @@
 		8AFC12522C02EDDE00F095F1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8AFF08252C0AF6110025F8D8 /* StandardTextFieldModifier.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 		8AFC12602C02EE7200F095F1 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				8AFF08212C0AF34C0025F8D8 /* View */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -286,6 +292,14 @@
 			children = (
 			);
 			path = "Uploading Media";
+			sourceTree = "<group>";
+		};
+		8AFF08212C0AF34C0025F8D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF08232C0AF3920025F8D8 /* LoginView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,6 +390,8 @@
 				8A9AC5352C074F24003C3511 /* UIWindow+Extension.swift in Sources */,
 				8A9AC5332C071A92003C3511 /* PostGrid.swift in Sources */,
 				8A9AC52B2C058668003C3511 /* CircularProfileImage.swift in Sources */,
+				8AFF08242C0AF3920025F8D8 /* LoginView.swift in Sources */,
+				8AFF08262C0AF6110025F8D8 /* StandardTextFieldModifier.swift in Sources */,
 				8AFC12712C04655700F095F1 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
