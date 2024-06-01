@@ -68,7 +68,7 @@ struct LoginView: View {
                 Divider()
 
                 NavigationLink {
-
+                    RegisterView()
                 } label: {
                     HStack(spacing: 3) {
                         Text("Don't have an account?")
@@ -79,7 +79,6 @@ struct LoginView: View {
                     .font(.footnote)
                     .padding(.vertical)
                 }
-
             }
         }
     }

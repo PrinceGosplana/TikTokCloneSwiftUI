@@ -30,6 +30,7 @@
 		8AFC12712C04655700F095F1 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC12702C04655700F095F1 /* NotificationsView.swift */; };
 		8AFF08242C0AF3920025F8D8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF08232C0AF3920025F8D8 /* LoginView.swift */; };
 		8AFF08262C0AF6110025F8D8 /* StandardTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF08252C0AF6110025F8D8 /* StandardTextFieldModifier.swift */; };
+		8AFF08282C0B06630025F8D8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF08272C0B06620025F8D8 /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		8AFC12702C04655700F095F1 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		8AFF08232C0AF3920025F8D8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8AFF08252C0AF6110025F8D8 /* StandardTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardTextFieldModifier.swift; sourceTree = "<group>"; };
+		8AFF08272C0B06620025F8D8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				8AFF08232C0AF3920025F8D8 /* LoginView.swift */,
+				8AFF08272C0B06620025F8D8 /* RegisterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				8A1B1C3C2C01DD9600F3D44B /* TikTokCloneSwiftUI_gitApp.swift in Sources */,
 				8A9AC53E2C0830D4003C3511 /* FeedViewModel.swift in Sources */,
 				8AFC12632C02FBDF00F095F1 /* MainTabView.swift in Sources */,
+				8AFF08282C0B06630025F8D8 /* RegisterView.swift in Sources */,
 				8A9AC5272C0584D8003C3511 /* CurrentUserProfileView.swift in Sources */,
 				8A9AC5372C074F4F003C3511 /* UIScreen+Extension.swift in Sources */,
 				8A9AC52D2C058752003C3511 /* ProfileHeader.swift in Sources */,
