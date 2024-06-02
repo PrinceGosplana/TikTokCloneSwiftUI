@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A1347A72C046CB200072E2F /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1347A62C046CB200072E2F /* NotificationCell.swift */; };
+		8A168AEB2C0C231F00297E5B /* AuthenticationFormProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168AEA2C0C231F00297E5B /* AuthenticationFormProtocol.swift */; };
 		8A1B1C3C2C01DD9600F3D44B /* TikTokCloneSwiftUI_gitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B1C3B2C01DD9600F3D44B /* TikTokCloneSwiftUI_gitApp.swift */; };
 		8A1B1C3E2C01DD9600F3D44B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B1C3D2C01DD9600F3D44B /* ContentView.swift */; };
 		8A1B1C402C01DD9900F3D44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B1C3F2C01DD9900F3D44B /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		8A1347A62C046CB200072E2F /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		8A168AEA2C0C231F00297E5B /* AuthenticationFormProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFormProtocol.swift; sourceTree = "<group>"; };
 		8A1B1C382C01DD9600F3D44B /* TikTokCloneSwiftUI.git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTokCloneSwiftUI.git.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1B1C3B2C01DD9600F3D44B /* TikTokCloneSwiftUI_gitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokCloneSwiftUI_gitApp.swift; sourceTree = "<group>"; };
 		8A1B1C3D2C01DD9600F3D44B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A168AE92C0C230900297E5B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8A168AEA2C0C231F00297E5B /* AuthenticationFormProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		8A1B1C2F2C01DD9600F3D44B = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +294,7 @@
 		8AFC12602C02EE7200F095F1 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				8A168AE92C0C230900297E5B /* Protocol */,
 				8AFF08212C0AF34C0025F8D8 /* View */,
 			);
 			path = Authentication;
@@ -378,6 +389,7 @@
 				8AFC126D2C04609500F095F1 /* ExploreView.swift in Sources */,
 				8A1347A72C046CB200072E2F /* NotificationCell.swift in Sources */,
 				8A9AC5302C05897E003C3511 /* UserStat.swift in Sources */,
+				8A168AEB2C0C231F00297E5B /* AuthenticationFormProtocol.swift in Sources */,
 				8AFC12652C03905A00F095F1 /* FeedView.swift in Sources */,
 				8A9AC5392C075184003C3511 /* Post.swift in Sources */,
 				8AFC12672C04588B00F095F1 /* FeedCell.swift in Sources */,
