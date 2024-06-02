@@ -14,6 +14,7 @@ struct RegisterView: View {
     @State private var fullName = ""
     @State private var userName = ""
     @Environment(\.dismiss) var dismiss
+    @StateObject var viewModel = RegistrationViewModel(authService: AuthService())
 
     var body: some View {
         VStack {
@@ -44,9 +45,16 @@ struct RegisterView: View {
             .textInputAutocapitalization(.never)
 
             Button {
-
+                Task {
+                    await viewModel.create(
+                        withEmail: email,
+                        password: password,
+                        userName: userName,
+                        fullName: fullName
+                    )
+                }
             } label: {
-                Text("Login")
+                Text("Sign Up")
                     .foregroundStyle(.white)
                     .fontWeight(.semibold)
                     .foregroundStyle(.white)

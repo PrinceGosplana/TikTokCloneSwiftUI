@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		8A1347A72C046CB200072E2F /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1347A62C046CB200072E2F /* NotificationCell.swift */; };
 		8A168AEB2C0C231F00297E5B /* AuthenticationFormProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168AEA2C0C231F00297E5B /* AuthenticationFormProtocol.swift */; };
+		8A168AEE2C0C3BC100297E5B /* AuthServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168AED2C0C3BC100297E5B /* AuthServiceProtocol.swift */; };
+		8A168AF02C0C3BCC00297E5B /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168AEF2C0C3BCC00297E5B /* AuthService.swift */; };
+		8A168AF22C0C3BD600297E5B /* MockAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168AF12C0C3BD600297E5B /* MockAuthService.swift */; };
+		8A168AF52C0C3CDE00297E5B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168AF42C0C3CDE00297E5B /* LoginViewModel.swift */; };
+		8A168AF72C0C3F7E00297E5B /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A168AF62C0C3F7E00297E5B /* RegistrationViewModel.swift */; };
 		8A1B1C3C2C01DD9600F3D44B /* TikTokCloneSwiftUI_gitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B1C3B2C01DD9600F3D44B /* TikTokCloneSwiftUI_gitApp.swift */; };
 		8A1B1C3E2C01DD9600F3D44B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B1C3D2C01DD9600F3D44B /* ContentView.swift */; };
 		8A1B1C402C01DD9900F3D44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B1C3F2C01DD9900F3D44B /* Assets.xcassets */; };
@@ -37,6 +42,11 @@
 /* Begin PBXFileReference section */
 		8A1347A62C046CB200072E2F /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		8A168AEA2C0C231F00297E5B /* AuthenticationFormProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFormProtocol.swift; sourceTree = "<group>"; };
+		8A168AED2C0C3BC100297E5B /* AuthServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceProtocol.swift; sourceTree = "<group>"; };
+		8A168AEF2C0C3BCC00297E5B /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		8A168AF12C0C3BD600297E5B /* MockAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthService.swift; sourceTree = "<group>"; };
+		8A168AF42C0C3CDE00297E5B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		8A168AF62C0C3F7E00297E5B /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		8A1B1C382C01DD9600F3D44B /* TikTokCloneSwiftUI.git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTokCloneSwiftUI.git.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1B1C3B2C01DD9600F3D44B /* TikTokCloneSwiftUI_gitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokCloneSwiftUI_gitApp.swift; sourceTree = "<group>"; };
 		8A1B1C3D2C01DD9600F3D44B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +91,25 @@
 				8A168AEA2C0C231F00297E5B /* AuthenticationFormProtocol.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		8A168AEC2C0C3BA100297E5B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8A168AED2C0C3BC100297E5B /* AuthServiceProtocol.swift */,
+				8A168AEF2C0C3BCC00297E5B /* AuthService.swift */,
+				8A168AF12C0C3BD600297E5B /* MockAuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8A168AF32C0C3CCF00297E5B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8A168AF42C0C3CDE00297E5B /* LoginViewModel.swift */,
+				8A168AF62C0C3F7E00297E5B /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		8A1B1C2F2C01DD9600F3D44B = {
@@ -295,7 +324,9 @@
 			isa = PBXGroup;
 			children = (
 				8A168AE92C0C230900297E5B /* Protocol */,
+				8A168AEC2C0C3BA100297E5B /* Service */,
 				8AFF08212C0AF34C0025F8D8 /* View */,
+				8A168AF32C0C3CCF00297E5B /* ViewModel */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -387,18 +418,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AFC126D2C04609500F095F1 /* ExploreView.swift in Sources */,
+				8A168AEE2C0C3BC100297E5B /* AuthServiceProtocol.swift in Sources */,
 				8A1347A72C046CB200072E2F /* NotificationCell.swift in Sources */,
 				8A9AC5302C05897E003C3511 /* UserStat.swift in Sources */,
 				8A168AEB2C0C231F00297E5B /* AuthenticationFormProtocol.swift in Sources */,
 				8AFC12652C03905A00F095F1 /* FeedView.swift in Sources */,
 				8A9AC5392C075184003C3511 /* Post.swift in Sources */,
+				8A168AF02C0C3BCC00297E5B /* AuthService.swift in Sources */,
+				8A168AF52C0C3CDE00297E5B /* LoginViewModel.swift in Sources */,
 				8AFC12672C04588B00F095F1 /* FeedCell.swift in Sources */,
 				8A1B1C3E2C01DD9600F3D44B /* ContentView.swift in Sources */,
 				8A9AC5412C085E69003C3511 /* CustomVideoPlayer.swift in Sources */,
 				8A1B1C3C2C01DD9600F3D44B /* TikTokCloneSwiftUI_gitApp.swift in Sources */,
 				8A9AC53E2C0830D4003C3511 /* FeedViewModel.swift in Sources */,
+				8A168AF22C0C3BD600297E5B /* MockAuthService.swift in Sources */,
 				8AFC12632C02FBDF00F095F1 /* MainTabView.swift in Sources */,
 				8AFF08282C0B06630025F8D8 /* RegisterView.swift in Sources */,
+				8A168AF72C0C3F7E00297E5B /* RegistrationViewModel.swift in Sources */,
 				8A9AC5272C0584D8003C3511 /* CurrentUserProfileView.swift in Sources */,
 				8A9AC5372C074F4F003C3511 /* UIScreen+Extension.swift in Sources */,
 				8A9AC52D2C058752003C3511 /* ProfileHeader.swift in Sources */,
