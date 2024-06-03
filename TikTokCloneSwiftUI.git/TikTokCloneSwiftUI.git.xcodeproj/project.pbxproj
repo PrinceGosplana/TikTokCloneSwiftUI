@@ -29,6 +29,7 @@
 		8A9AC53E2C0830D4003C3511 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AC53D2C0830D4003C3511 /* FeedViewModel.swift */; };
 		8A9AC5412C085E69003C3511 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AC5402C085E69003C3511 /* CustomVideoPlayer.swift */; };
 		8AFA1CDD2C0D924200EC7A39 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA1CDC2C0D924200EC7A39 /* ContentViewModel.swift */; };
+		8AFA1CE12C0DAF3600EC7A39 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA1CE02C0DAF3600EC7A39 /* AuthManager.swift */; };
 		8AFC12632C02FBDF00F095F1 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC12622C02FBDF00F095F1 /* MainTabView.swift */; };
 		8AFC12652C03905A00F095F1 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC12642C03905A00F095F1 /* FeedView.swift */; };
 		8AFC12672C04588B00F095F1 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC12662C04588B00F095F1 /* FeedCell.swift */; };
@@ -65,6 +66,7 @@
 		8A9AC53F2C08546F003C3511 /* TikTokCloneSwiftUI-git-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TikTokCloneSwiftUI-git-Info.plist"; sourceTree = SOURCE_ROOT; };
 		8A9AC5402C085E69003C3511 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 		8AFA1CDC2C0D924200EC7A39 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		8AFA1CE02C0DAF3600EC7A39 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		8AFC12622C02FBDF00F095F1 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		8AFC12642C03905A00F095F1 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		8AFC12662C04588B00F095F1 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 		8A1B1C3A2C01DD9600F3D44B /* TikTokCloneSwiftUI.git */ = {
 			isa = PBXGroup;
 			children = (
+				8AFA1CDE2C0DAF1E00EC7A39 /* Managers */,
 				8A9AC53F2C08546F003C3511 /* TikTokCloneSwiftUI-git-Info.plist */,
 				8AFC12572C02EE1700F095F1 /* App */,
 				8A1B1C3F2C01DD9900F3D44B /* Assets.xcassets */,
@@ -210,6 +213,22 @@
 				8AFA1CDC2C0D924200EC7A39 /* ContentViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8AFA1CDE2C0DAF1E00EC7A39 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8AFA1CDF2C0DAF2900EC7A39 /* AuthManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8AFA1CDF2C0DAF2900EC7A39 /* AuthManager */ = {
+			isa = PBXGroup;
+			children = (
+				8AFA1CE02C0DAF3600EC7A39 /* AuthManager.swift */,
+			);
+			path = AuthManager;
 			sourceTree = "<group>";
 		};
 		8AFC12522C02EDDE00F095F1 /* Utils */ = {
@@ -455,6 +474,7 @@
 				8AFF08282C0B06630025F8D8 /* RegisterView.swift in Sources */,
 				8A168AF72C0C3F7E00297E5B /* RegistrationViewModel.swift in Sources */,
 				8A9AC5272C0584D8003C3511 /* CurrentUserProfileView.swift in Sources */,
+				8AFA1CE12C0DAF3600EC7A39 /* AuthManager.swift in Sources */,
 				8A9AC5372C074F4F003C3511 /* UIScreen+Extension.swift in Sources */,
 				8A9AC52D2C058752003C3511 /* ProfileHeader.swift in Sources */,
 				8AFC126B2C045F9900F095F1 /* UserCell.swift in Sources */,

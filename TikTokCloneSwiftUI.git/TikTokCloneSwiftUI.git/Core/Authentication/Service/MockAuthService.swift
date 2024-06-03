@@ -13,15 +13,13 @@ actor MockAuthService: AuthServiceProtocol {
         UUID().uuidString
     }
 
-    func login(withEmail email: String, password: String) async throws {
-
+    func login(withEmail email: String, password: String) async throws -> String? {
+        UUID().uuidString
     }
 
-    func createUser(withEmail email: String, password: String, userName: String, fullName: String) async throws {
-
+    func createUser(withEmail email: String, password: String, userName: String, fullName: String) async throws -> String? {
+        UUID().uuidString
     }
 
-    func signOut() async {
-        
-    }
+    func signOut() async {}
 }

@@ -13,25 +13,13 @@ actor AuthService: AuthServiceProtocol {
         UUID().uuidString
     }
     
-    func login(withEmail email: String, password: String) async throws {
-        do {
-
-        } catch {
-            print("Failed to log in user with error \(error.localizedDescription)")
-            throw error
-        }
+    func login(withEmail email: String, password: String) async throws -> String? {
+        UUID().uuidString
     }
     
-    func createUser(withEmail email: String, password: String, userName: String, fullName: String) async throws {
-        do {
-            
-        } catch {
-            print("Failed to create user with error \(error.localizedDescription)")
-            throw error
-        }
+    func createUser(withEmail email: String, password: String, userName: String, fullName: String) async throws -> String? {
+        UUID().uuidString
     }
 
-    func signOut() async {
-        
-    }
+    func signOut() async {}
 }
