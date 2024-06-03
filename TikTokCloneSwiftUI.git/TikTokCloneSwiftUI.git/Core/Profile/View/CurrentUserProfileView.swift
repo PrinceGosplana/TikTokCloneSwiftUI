@@ -22,6 +22,16 @@ struct CurrentUserProfileView: View {
             }
             .navigationTitle("Profile")
             .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Sign Out") {
+
+                    }
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
+                    .tint(.black)
+                }
+            }
         }
     }
 }
