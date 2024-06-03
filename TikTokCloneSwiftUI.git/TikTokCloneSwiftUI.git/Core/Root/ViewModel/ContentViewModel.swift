@@ -10,7 +10,7 @@ import Foundation
 final class ContentViewModel: ObservableObject {
 
     @Published var userSession: String?
-    private let authService: AuthServiceProtocol
+    let authService: AuthServiceProtocol
 
     init(authService: AuthServiceProtocol) {
         self.authService = authService

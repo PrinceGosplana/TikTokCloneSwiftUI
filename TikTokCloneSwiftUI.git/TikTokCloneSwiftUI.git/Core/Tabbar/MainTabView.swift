@@ -14,6 +14,11 @@ enum SelectedTab: Int {
 struct MainTabView: View {
 
     @State private var selectedTab: SelectedTab = .feed
+    private let authService: AuthServiceProtocol
+
+    init(authService: AuthServiceProtocol) {
+        self.authService = authService
+    }
 
     var body: some View {
         TabView {
@@ -51,7 +56,7 @@ struct MainTabView: View {
                 .onAppear { selectedTab = .notifications }
                 .tag(SelectedTab.notifications)
 
-            CurrentUserProfileView()
+            CurrentUserProfileView(authService: authService)
                 .tabItem {
                     Image(systemName: selectedTab == .profile ? "person.fill" : "person")
                         .environment(\.symbolVariants, selectedTab == .profile ? .fill : .none)
@@ -65,5 +70,5 @@ struct MainTabView: View {
 }
 
 #Preview {
-    MainTabView()
+    MainTabView(authService: MockAuthService())
 }

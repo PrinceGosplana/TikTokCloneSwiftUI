@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct CurrentUserProfileView: View {
+
+    let authService: AuthServiceProtocol
+
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -25,7 +28,7 @@ struct CurrentUserProfileView: View {
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button("Sign Out") {
-
+                        Task { await authService.signOut() }
                     }
                     .font(.subheadline)
                     .fontWeight(.semibold)
@@ -37,5 +40,5 @@ struct CurrentUserProfileView: View {
 }
 
 #Preview {
-    CurrentUserProfileView()
+    CurrentUserProfileView(authService: MockAuthService())
 }

@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct TikTokCloneSwiftUI_gitApp: App {
+
+    private let authService = AuthService()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(authService: authService)
         }
     }
 }
