@@ -28,6 +28,7 @@
 		8A9AC5392C075184003C3511 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AC5382C075184003C3511 /* Post.swift */; };
 		8A9AC53E2C0830D4003C3511 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AC53D2C0830D4003C3511 /* FeedViewModel.swift */; };
 		8A9AC5412C085E69003C3511 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AC5402C085E69003C3511 /* CustomVideoPlayer.swift */; };
+		8AFA1CDD2C0D924200EC7A39 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA1CDC2C0D924200EC7A39 /* ContentViewModel.swift */; };
 		8AFC12632C02FBDF00F095F1 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC12622C02FBDF00F095F1 /* MainTabView.swift */; };
 		8AFC12652C03905A00F095F1 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC12642C03905A00F095F1 /* FeedView.swift */; };
 		8AFC12672C04588B00F095F1 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC12662C04588B00F095F1 /* FeedCell.swift */; };
@@ -63,6 +64,7 @@
 		8A9AC53D2C0830D4003C3511 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		8A9AC53F2C08546F003C3511 /* TikTokCloneSwiftUI-git-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TikTokCloneSwiftUI-git-Info.plist"; sourceTree = SOURCE_ROOT; };
 		8A9AC5402C085E69003C3511 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		8AFA1CDC2C0D924200EC7A39 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		8AFC12622C02FBDF00F095F1 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		8AFC12642C03905A00F095F1 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		8AFC12662C04588B00F095F1 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
@@ -194,6 +196,22 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		8AFA1CDA2C0D922C00EC7A39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B1C3D2C01DD9600F3D44B /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8AFA1CDB2C0D923400EC7A39 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8AFA1CDC2C0D924200EC7A39 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		8AFC12522C02EDDE00F095F1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,7 +289,8 @@
 		8AFC125A2C02EE6400F095F1 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				8A1B1C3D2C01DD9600F3D44B /* ContentView.swift */,
+				8AFA1CDB2C0D923400EC7A39 /* ViewModel */,
+				8AFA1CDA2C0D922C00EC7A39 /* View */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -444,6 +463,7 @@
 				8A9AC52B2C058668003C3511 /* CircularProfileImage.swift in Sources */,
 				8AFF08242C0AF3920025F8D8 /* LoginView.swift in Sources */,
 				8AFF08262C0AF6110025F8D8 /* StandardTextFieldModifier.swift in Sources */,
+				8AFA1CDD2C0D924200EC7A39 /* ContentViewModel.swift in Sources */,
 				8AFC12712C04655700F095F1 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

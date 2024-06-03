@@ -9,6 +9,10 @@ import Foundation
 
 actor MockAuthService: AuthServiceProtocol {
 
+    func updateUserSession() async -> String? {
+        UUID().uuidString
+    }
+
     func login(withEmail email: String, password: String) async throws {
 
     }
